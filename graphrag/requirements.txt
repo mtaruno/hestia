@@ -1,0 +1,17 @@
+python-dotenv
+neo4j
+networkx
+matplotlib
+openai
+langchain
+langchain-community
+neo4j-graphrag
+
+pypdf2
+pdfplumber
+pdf2image
+pytesseract
+requests
+fsspec
+pyyaml
+json_repair

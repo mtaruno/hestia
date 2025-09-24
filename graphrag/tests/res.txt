@@ -1,0 +1,1327 @@
+[
+  {
+    "nodes": [
+      {
+        "name": "Chunk",
+        "count": 39
+      },
+      {
+        "name": "Entity",
+        "count": 248
+      },
+      {
+        "name": "Paper",
+        "count": 31
+      },
+      {
+        "name": "Parent",
+        "count": 23
+      },
+      {
+        "name": "Scenario",
+        "count": 8
+      },
+      {
+        "name": "Tag",
+        "count": 4
+      },
+      {
+        "name": "__Entity__",
+        "count": 314
+      },
+      {
+        "name": "__KGBuilder__",
+        "count": 353
+      }
+    ],
+    "relationships": [
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "RELATED_TO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Chunk",
+          "count": 39
+        },
+        "NEXT_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "RELATED_TO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Paper",
+          "count": 31
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Tag",
+          "count": 4
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_TAG",
+        {
+          "name": "Tag",
+          "count": 4
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "RELATED_TO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Paper",
+          "count": 31
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "RELATED_TO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "NEXT_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "RELATED_TO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "RELATED_TO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "RELATED_TO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "RELATED_TO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "RELATED_TO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Chunk",
+          "count": 39
+        },
+        "NEXT_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "HAS_TAG",
+        {
+          "name": "Tag",
+          "count": 4
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "RELATED_TO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Paper",
+          "count": 31
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_TAG",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "RELATED_TO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "RELATED_TO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "RELATED_TO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "HAS_TAG",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "RELATED_TO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Tag",
+          "count": 4
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "RELATED_TO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Scenario",
+          "count": 8
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "NEXT_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "RELATED_TO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "FROM_CHUNK",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "RELATED_TO",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "Entity",
+          "count": 248
+        },
+        "HAS_TAG",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "RELATED_TO",
+        {
+          "name": "Scenario",
+          "count": 8
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "HAS_TAG",
+        {
+          "name": "Tag",
+          "count": 4
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "FROM_CHUNK",
+        {
+          "name": "Chunk",
+          "count": 39
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "Paper",
+          "count": 31
+        },
+        "MENTIONS_PARENT",
+        {
+          "name": "__Entity__",
+          "count": 314
+        }
+      ],
+      [
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        },
+        "RELATED_TO",
+        {
+          "name": "__KGBuilder__",
+          "count": 353
+        }
+      ],
+      [
+        {
+          "name": "__Entity__",
+          "count": 314
+        },
+        "HAS_CHUNK",
+        {
+          "name": "Parent",
+          "count": 23
+        }
+      ],
+      [
+        {
+          "name": "Parent",
+          "count": 23
+        },
+        "MENTIONS_SCENARIO",
+        {
+          "name": "Entity",
+          "count": 248
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,62 @@
+name: athena_parent_copilot
+description: "A new Flutter project."
+# flutter build ipa --obfuscate --split-debug-info=archive
+publish_to: 'none'
+version: 0.1.9+13
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  firebase_core: ^3.8.1
+  firebase_auth: ^5.3.4
+  cloud_firestore: ^5.5.1
+  flutter_timezone: ^4.0.0
+  flutter_spinkit: ^5.2.1
+  cached_network_image: ^3.4.1
+  intl: ^0.20.1
+  google_fonts: ^6.2.1
+  dropdown_button2: ^2.3.9
+  flutter_keyboard_visibility: ^6.0.0
+  flutter_svg: ^2.0.16
+  connectivity_plus: ^6.1.1
+  flutter_markdown: ^0.7.5
+  equatable: ^2.0.7
+  flutter_bloc: ^8.1.6
+  image_picker: ^1.1.2
+  permission_handler: ^11.3.1
+  app_settings: ^5.1.1
+  firebase_storage: ^12.3.7
+  cloud_functions: ^5.2.0
+  flutter_launcher_icons: ^0.14.2
+  fluttertoast: ^8.2.10
+  like_button: ^2.0.5
+ # syncfusion_flutter_charts: ^27.1.39
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/app_icon.png" # Path to your PNG file
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/send_icon.svg
+    - assets/app_icon.png
+    - assets/checkmark.svg
+    - assets/join_community_icon.svg
+    - assets/skills_chart.png
+    - assets/weekly_checkin_icon.svg
+    - assets/parenting_styles_icon.svg
+    - assets/family_context_icon.svg
+    - assets/drop_down_icon.svg
+    - assets/drop_up_icon.svg
+    - assets/
+

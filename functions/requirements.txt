@@ -1,0 +1,14 @@
+firebase_functions
+firebase_admin
+python-dotenv
+openai
+neo4j
+neo4j_graphrag
+langchain
+langchain-community
+langchain-openai
+tiktoken
+pyyaml
+requests
+fsspec
+json_repair
